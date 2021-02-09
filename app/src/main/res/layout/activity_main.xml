@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <EditText
@@ -13,7 +15,7 @@
         android:layout_marginTop="8dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="masukan nama"
+        android:hint="MASUKAN QUOTES"
         android:inputType="textPersonName" />
 
     <Button
@@ -22,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="8dp"
+        android:background="@drawable/button"
         android:text="Send Data" />
 
 </LinearLayout>
